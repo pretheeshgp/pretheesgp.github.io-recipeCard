@@ -1,0 +1,122 @@
+:root {
+
+
+		--bgColor1: #493634;
+		--bgColor2: #927371;
+		--textColor1: #493634;
+		--textColor2: #E2E3E5;
+}
+
+* {
+
+		margin: 0;
+}
+
+
+body {
+
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(128deg, var(--bgColor1) 55%, var(--bgColor2) 100%);
+		flex-direction: row;
+
+}
+
+
+.recipe-card {
+
+				width: 25%;
+				height: auto;
+				background-color: var(--textColor2);
+				border-radius: 8%;
+				display: block;
+				flex-direction: column;
+				justify-content: space-between;
+
+}
+
+
+figure {
+
+			width: 100%;
+			height: 35vh;
+
+}
+
+img {
+
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		border-top-left-radius: 8%;
+		border-top-right-radius: 8%;
+}
+
+.text {
+
+			width: 100%;
+			height: auto;
+
+		border-bottom-left-radius: 8%;
+		border-bottom-right-radius: 8%;
+
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		    padding-top: 16px;
+    		padding-bottom: 16px;
+}
+
+
+.heading {
+
+			height: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			line-height: 40px;
+			color: var(--textColor1);
+			font-weight: 900;
+			text-transform: uppercase;
+}
+
+.para {
+
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 16px;
+
+}
+
+.subHead {
+
+			width: 30%;
+			height: auto;
+			text-align: center;
+			background-color: var(--bgColor1);
+			color: var(--textColor2);
+			font-size: 16px;
+			font-weight: 100;
+			margin-bottom: 8px;
+
+
+}
+
+p {
+
+			font-size: 12px;
+			font-weight: 600;
+			color: var(--bgColor2);
+			width: auto;
+			text-align: left;
+
+
+}
